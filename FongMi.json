@@ -2,6 +2,16 @@
   "spider": "./custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
   "sites": [
     {
+      "key": "dr_豆瓣",
+      "name": "🔍豆瓣荐片(js)",
+      "type": 3,
+      "api": "./js/lib/drpy2.min.js",
+      "searchable": 2,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "./js/douban.js"
+    },
+    {
       "key": "玩偶gg",
       "name": "玩偶gg",
       "type": 3,
@@ -15,6 +25,22 @@
       }
     },
     {
+      "key": "哔哩FM",
+      "name": "哔哩",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "./bilibili.json",
+        "cookie": ""
+      }
+    },
+    {
       "key": "玩偶 | 蜡笔",
       "name": "玩偶 | 蜡笔",
       "type": 3,
@@ -23,7 +49,7 @@
       "changeable": 0,
       "ext": {
         "commonConfig": "./peizhi.json",
-        "siteUrl": "https://duopan.fun/",
+        "siteUrl": "https://duopan.fun",
         "filter": "./wogg.json"
       }
     },
