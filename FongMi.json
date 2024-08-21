@@ -109,29 +109,66 @@
       "ext": "https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/jianpian.json"
     },
     {
-      "key": "TgYunPan1",
-      "name": "TgYunPan1",
+      "key": "TgYunPanLocal1",
+      "name": "TgYunPanLocal1",
       "type": 3,
-      "api": "csp_TgYunPan",
+      "api": "csp_TgYunPanLocal",
       "searchable": 1,
       "filterable": 0,
       "switchable": 0,
       "ext": {
-        "siteUrl": "http://144.126.217.226:8000",
         "channelUsername": "yunpanshare",
         "commonConfig": "./peizhi.json"
       }
     },
     {
-      "key": "TgYunPan5",
-      "name": "TgYunPan5",
+      "key": "TgYunPanLocal2",
+      "name": "TgYunPanLocal2",
       "type": 3,
-      "api": "csp_TgYunPan",
+      "api": "csp_TgYunPanLocal",
       "searchable": 1,
       "filterable": 0,
       "switchable": 0,
       "ext": {
-        "siteUrl": "http://144.126.217.226:8000",
+        "channelUsername": "shareAliyun",
+        "commonConfig": "./peizhi.json"
+      }
+    },
+    {
+      "key": "TgYunPanLocal3",
+      "name": "TgYunPanLocal3",
+      "type": 3,
+      "api": "csp_TgYunPanLocal",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "channelUsername": "kuakeyun",
+        "commonConfig": "./peizhi.json"
+      }
+    },
+    {
+      "key": "TgYunPanLocal4",
+      "name": "TgYunPanLocal4",
+      "type": 3,
+      "api": "csp_TgYunPanLocal",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "channelUsername": "qixingzhenren",
+        "commonConfig": "./peizhi.json"
+      }
+    },
+    {
+      "key": "TgYunPanLocal5",
+      "name": "TgYunPanLocal5",
+      "type": 3,
+      "api": "csp_TgYunPanLocal",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
         "channelUsername": "guaguale115",
         "commonConfig": "./peizhi.json"
       }
